@@ -26,7 +26,7 @@ describe('API Module', function() {
 
         it('Create valid character returns 200', function(done) {
 
-            var _xmlCharacter = '<nome>Wendy Testaburger</nome><sexo>Feminino</sexo><idade>10</idade><cabelo>Preto</cabelo><olhos>Pretos</olhos><pessoasRelacionadas><mae>Sra Testaburger</mae><pai>Sr Testaburger</pai><amigos>Token BlackStan Marsh</amigos><inimigos>Eric Theodore Cartman</inimigos></pessoasRelacionadas><origem>South Park, Colorado</origem><atividade>Estudante</atividade><voz>April Stewart</voz><caracteristicas>inteligentepolitizada</caracteristicas>';
+            var _xmlCharacter = '<personagem></personagem><nome>Wendy Testaburger</nome><sexo>Feminino</sexo><idade>10</idade><cabelo>Preto</cabelo><olhos>Pretos</olhos><pessoasRelacionadas><mae>Sra Testaburger</mae><pai>Sr Testaburger</pai><amigos>Token BlackStan Marsh</amigos><inimigos>Eric Theodore Cartman</inimigos></pessoasRelacionadas><origem>South Park, Colorado</origem><atividade>Estudante</atividade><voz>April Stewart</voz><caracteristicas>inteligentepolitizada</caracteristicas></personagem>';
 
             request(app)
                 .post('/character', _xmlCharacter)
