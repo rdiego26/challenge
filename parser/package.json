@@ -1,0 +1,33 @@
+{
+  "name": "parser",
+  "version": "0.0.1",
+  "description": "Lê arquivos json e os transforma em xml .",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdiego26/challenge"
+  },
+  "keywords": [
+    "parser",
+    "json2xml"
+  ],
+  "author": "Diego Ramos <rdiego26@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdiego26/challenge/issues"
+  },
+  "homepage": "https://github.com/rdiego26/challenge",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "hound": "^1.0.4",
+    "json2xml": "^0.1.2",
+    "jsonfile": "^2.2.2",
+    "request": "^2.63.0",
+    "walk": "^2.3.9"
+  }
+}
