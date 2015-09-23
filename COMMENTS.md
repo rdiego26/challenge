@@ -7,4 +7,6 @@
 
 
 ## Futuras implementações
- 
+ - Migrar para o restify ao invés do express, bem menor e o router dele é bem mais rápido e escalável ( tenho alguns exemplos no github ).
+ - Definir um objeto padrão de retorno da API ( tenho alguns exemplos no github ).
+ - Não foi necessário usar o mongo-sanitize pois apenas temos insert e get na API.
